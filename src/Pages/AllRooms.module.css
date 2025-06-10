@@ -1,0 +1,31 @@
+.room-card {
+    width: 45vw;
+    padding: 16px;
+   
+}
+.room-link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.room-card img {
+    width: calc((100vw / 2) - 40px);
+    height: calc(100vw / 4);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    margin: 10px;
+}
+.room-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.room-card p{
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin-top: 5px;
+}

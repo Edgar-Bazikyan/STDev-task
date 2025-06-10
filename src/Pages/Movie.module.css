@@ -1,0 +1,34 @@
+.movie-item{
+    margin-top: 70px;
+    display: flex;
+}
+.movie-image{
+    width: 350px;
+    height: 515px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.movie-details-container{
+    display: flex;
+    margin-top: 50px;
+    color: white;
+    font-size: 1.1rem;
+
+    line-height: 1.6;
+}
+.movie-details-container p{
+    margin: 10px 0;
+}
+.movie-details-labels{
+    margin-right: 20px;
+}
+.movie-info{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.movie-description{
+
+  max-width: 600px;
+  word-break: break-word;
+}

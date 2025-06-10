@@ -1,0 +1,21 @@
+.room-image {
+    width: calc((100vw / 2) - 40px);
+    height: calc(100vw / 4);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    
+}
+.room-list {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.room-title {
+    font-size: 1.7rem;
+    margin-bottom: 30px;
+}
+.room-link{
+    text-decoration: none;
+    color: black;
+}

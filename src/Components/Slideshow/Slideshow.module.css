@@ -1,0 +1,21 @@
+.container{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    overflow-x: hidden;
+    scroll-snap-type: x mandatory;
+  
+}
+.slide{
+    flex: 0 0 auto;
+    overflow: hidden;
+    width:100%;
+    height:100%;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
