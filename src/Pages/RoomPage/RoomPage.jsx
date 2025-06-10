@@ -4,7 +4,7 @@ import axios from 'axios'
 import styles from './Room.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTicket } from '@fortawesome/free-solid-svg-icons'
-import RoomSeats from "../Modals/RoomSeatsModal/RoomSeats"
+import RoomSeats from "../../Modals/RoomSeatsModal/RoomSeats"
 const RoomPage = () => {
    const { id } = useParams();
        const [room, setRoom] = useState({});

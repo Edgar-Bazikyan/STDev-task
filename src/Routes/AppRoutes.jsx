@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Main from "./Main";
 import MainPage from "../Pages/MainPage";
-import MoviePage from "../Pages/MoviePage";
-import RoomPage from "../Pages/RoomPage";
+import MoviePage from "../Pages/MoviePage/MoviePage";
+import RoomPage from "../Pages/RoomPage/RoomPage";
 import AdminPage from "../Pages/Admin/AdminPage";
-import AllMovies from "../Pages/AllMovies";
-import AllRooms from "../Pages/AllRooms";
+import AllMovies from "../Pages/AllMovies/AllMovies";
+import AllRooms from "../Pages/AllRooms/AllRooms";
 const AppRoutes = () => {
     return (
         <Router>
@@ -18,7 +18,6 @@ const AppRoutes = () => {
                     <Route path='admin' element={<AdminPage />} />
                     <Route path="movies" element={<AllMovies />} />
                     <Route path="rooms" element={<AllRooms />} />
-                    <Route path="admin" element={<AdminPage />} />
                 </Route>
             </Routes>
         </Router>
