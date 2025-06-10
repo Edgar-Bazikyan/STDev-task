@@ -33,7 +33,7 @@ const MovieList = ({ movies }) => {
             <div className={styles['movie-list-container']}>
                 <div className={styles['arrow']} onClick={scrollLeft}><FontAwesomeIcon icon={faArrowLeft} /></div>
                 <div ref={container} className={styles['movie-list']}>
-                    {movies ? movies.map((movie, index) => (
+                    {movies.length > 0 ? movies.map((movie, index) => (
                         <MovieItem key={index} movie={movie} />
                     ) ) : (
                         <div className={styles['no-movies']}>
